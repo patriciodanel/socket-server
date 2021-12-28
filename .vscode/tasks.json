@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"include": [
+      "**/*"
+  ],
+	"tasks": [
+		{
+			"type": "typescript",
+			"tsconfig": "./tsconfig.json",
+			"problemMatcher": [
+				"$tsc-watch"
+			],
+			"group": "build",
+			"label": "God 👁: ./tsconfig.json"
+		}
+	]
+}
